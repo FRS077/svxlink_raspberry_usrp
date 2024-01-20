@@ -66,7 +66,8 @@ To modify the Echolink information type <b>sudo nano svxlink.d/ModuleEchoLink.co
 To incorporated the changes you will need to type <b>sudo systemctl restart svxlink.service</b> and return.
 If you need to make changes to the <b>gpio.conf</b> file you will also need to restart the gpio service too.
 <p>Everything introduced here is from the original presentation by Tobias SM0SVX, modified slightly with some additional modules from DL1HRC.</p>
-<p>This new script will download and compile DVSwitch into the folder /opt/Analog_Bridge and /opt/MMDVM_Bridge. You will need to modify all three .ini files Analog_Bridge, MMDVM_Bridge and DVSwitch. You will also need to download onto an android device DVSwitch_Mobile to control the functions of DVSwitch remotely, as it cannot yet be done from SVXlink.</p>
+
+<p>Ce nouveau script téléchargera et compilera DVSwitch dans le dossier /opt/Analog_Bridge et /opt/MMDVM_Bridge. Vous devrez modifier les trois fichiers .ini Analog_Bridge, MMDVM_Bridge et DVSwitch. Vous devrez également télécharger sur un appareil Android DVSwitch_Mobile pour contrôler les fonctions de DVSwitch à distance, car cela ne peut pas encore être fait depuis SVXlink.</p>
 
 <p> Il y a un script inclusif pour le téléchargement français</p>
 
