@@ -42,7 +42,7 @@ Once this is installed type the following command: <b>sudo chmod +x svxlink_rasp
 
 <p>The next commands refer to Raspberry OS Bullseye 32 bit lite (Debian 11). If you wish to use Raspberry OS Buster (Debian 10) such as for the F8ASB Hotspot then you need to edit the svxlink_raspberry/install.sh script by changing php8.0 to php7.3 in the list of software the script will download. Failure to do this will crash the script.</p>
 
-Now type <b>sudo bash svxlink_raspberry/install.sh</b> and return.
+Now type <b>sudo bash svxlink_raspberry_usrp/install.sh</b> and return.
 
 The script will now update the software. You will be required to add the callsign of the node prior to the compilation of the software so watch for the prompt.
 
