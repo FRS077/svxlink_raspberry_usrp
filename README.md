@@ -38,7 +38,7 @@ The first step will be the following command: <b>sudo apt install -y git</b>
 
 Now the following command: <b>sudo git clone https://github.com/f5vmr/svxlink_raspberry_usrp svxlink_raspberry</b> .
 
-Once this is installed type the following command: <b>sudo chmod +x svxlink_raspberry/*.sh</b>
+Once this is installed type the following command: <b>sudo chmod +x svxlink_raspberry_usrp/*.sh</b>
 
 <p>The next commands refer to Raspberry OS Bullseye 32 bit lite (Debian 11). If you wish to use Raspberry OS Buster (Debian 10) such as for the F8ASB Hotspot then you need to edit the svxlink_raspberry/install.sh script by changing php8.0 to php7.3 in the list of software the script will download. Failure to do this will crash the script.</p>
 
