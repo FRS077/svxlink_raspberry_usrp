@@ -1,8 +1,7 @@
 # svxlink_raspberry with DVSwitch
 **<h1> SVXLink and DVSwitch </h1>**
 <h2>Script build for Raspberry Pi - Repeater or Hotspot - British English Version.</h2> 
-<p>While there are repositories from which to download and compile SVXLink they do require quite a bit of understanding.
-This script takes only a little SSH knowledge to pull the various downloads together to create the basis of a ready-to-configure system.</p>
+<p>Bien qu'il existe des référentiels à partir desquels télécharger et compiler SVXLink, ils nécessitent un peu de compréhension. Ce script ne nécessite que peu de connaissances SSH pour rassembler les différents téléchargements afin de créer la base d'un système prêt à configurer.</p>
 
 <p>It has to be done under conditions of research in the original source manuals found on Svxlink.org and the man files http://www.svxlink.org/doc/man/man5/svxlink.conf.</p>
 <p>However this script pulls the SVXLink software from Adi DL1HRC's fork, that has the UsrpLogic necessary to drive the DVSwitch components.</p>
